@@ -33,8 +33,8 @@ client.on('ready', () => {
     int1 = setInterval(function cannuner(){
     if(test == 1 && (key != 0)){
 
-        NOTIFY_CHANNEL.sendMessage('@here ```nobody has checked walls in 15 minutes```', {tts: true});
-        NOTIFY_CHANNEL.sendMessage('@here ```nobody has checked walls in 15 minutes```', {tts: true});
+        NOTIFY_CHANNEL.sendMessage('@here ```nobody has checked walls in 15 minutes```', {tts: false});
+        NOTIFY_CHANNEL.sendMessage('@here ```nobody has checked walls in 15 minutes```', {tts: false});
 
     }
     else{
@@ -62,41 +62,41 @@ client.on ('message', message => {
 //WEEWOO NORTH------------------------------------------------------------------
 client.on ('message', message => {
   if (message.content === prefix + "weewoo north") {
-    NOTIFY_CHANNEL.sendMessage('@everyone **BEING RAIDED FROM NORTH SIDE**', {tts: true});
-    NOTIFY_CHANNEL.sendMessage('@everyone **BEING RAIDED FROM NORTH SIDE**', {tts: true});
-    NOTIFY_CHANNEL.sendMessage('@everyone **BEING RAIDED FROM NORTH SIDE**', {tts: true});
-    NOTIFY_CHANNEL.sendMessage('@everyone **BEING RAIDED FROM NORTH SIDE**', {tts: true});
-    NOTIFY_CHANNEL.sendMessage('@everyone **BEING RAIDED FROM NORTH SIDE**', {tts: true});
+    NOTIFY_CHANNEL.sendMessage('@everyone **BEING RAIDED FROM NORTH SIDE**', {tts: false});
+    NOTIFY_CHANNEL.sendMessage('@everyone **BEING RAIDED FROM NORTH SIDE**', {tts: false});
+    NOTIFY_CHANNEL.sendMessage('@everyone **BEING RAIDED FROM NORTH SIDE**', {tts: false});
+    NOTIFY_CHANNEL.sendMessage('@everyone **BEING RAIDED FROM NORTH SIDE**', {tts: false});
+    NOTIFY_CHANNEL.sendMessage('@everyone **BEING RAIDED FROM NORTH SIDE**', {tts: false});
   }
 });
 //WEEWOO EAST-------------------------------------------------------------------
 client.on ('message', message => {
   if (message.content === prefix + "weewoo east") {
-    NOTIFY_CHANNEL.sendMessage('@everyone **BEING RAIDED FROM EAST SIDE**', {tts: true});
-    NOTIFY_CHANNEL.sendMessage('@everyone **BEING RAIDED FROM EAST SIDE**', {tts: true});
-    NOTIFY_CHANNEL.sendMessage('@everyone **BEING RAIDED FROM EAST SIDE**', {tts: true});
-    NOTIFY_CHANNEL.sendMessage('@everyone **BEING RAIDED FROM EAST SIDE**', {tts: true});
-    NOTIFY_CHANNEL.sendMessage('@everyone **BEING RAIDED FROM EAST SIDE**', {tts: true});
+    NOTIFY_CHANNEL.sendMessage('@everyone **BEING RAIDED FROM EAST SIDE**', {tts: false});
+    NOTIFY_CHANNEL.sendMessage('@everyone **BEING RAIDED FROM EAST SIDE**', {tts: false});
+    NOTIFY_CHANNEL.sendMessage('@everyone **BEING RAIDED FROM EAST SIDE**', {tts: false});
+    NOTIFY_CHANNEL.sendMessage('@everyone **BEING RAIDED FROM EAST SIDE**', {tts: false});
+    NOTIFY_CHANNEL.sendMessage('@everyone **BEING RAIDED FROM EAST SIDE**', {tts: false});
   }
 });
 //WEEWOO SOUTH------------------------------------------------------------------
 client.on ('message', message => {
   if (message.content === prefix + "weewoo south") {
-    NOTIFY_CHANNEL.sendMessage('@everyone **BEING RAIDED FROM SOUTH SIDE**', {tts: true});
-    NOTIFY_CHANNEL.sendMessage('@everyone **BEING RAIDED FROM SOUTH SIDE**', {tts: true});
-    NOTIFY_CHANNEL.sendMessage('@everyone **BEING RAIDED FROM SOUTH SIDE**', {tts: true});
-    NOTIFY_CHANNEL.sendMessage('@everyone **BEING RAIDED FROM SOUTH SIDE**', {tts: true});
-    NOTIFY_CHANNEL.sendMessage('@everyone **BEING RAIDED FROM SOUTH SIDE**', {tts: true});
+    NOTIFY_CHANNEL.sendMessage('@everyone **BEING RAIDED FROM SOUTH SIDE**', {tts: false});
+    NOTIFY_CHANNEL.sendMessage('@everyone **BEING RAIDED FROM SOUTH SIDE**', {tts: false});
+    NOTIFY_CHANNEL.sendMessage('@everyone **BEING RAIDED FROM SOUTH SIDE**', {tts: false});
+    NOTIFY_CHANNEL.sendMessage('@everyone **BEING RAIDED FROM SOUTH SIDE**', {tts: false});
+    NOTIFY_CHANNEL.sendMessage('@everyone **BEING RAIDED FROM SOUTH SIDE**', {tts: false});
   }
 });
 //WEEWOO WEST-------------------------------------------------------------------
 client.on ('message', message => {
   if (message.content === prefix + "weewoo west") {
-    NOTIFY_CHANNEL.sendMessage('@everyone **BEING RAIDED FROM WEST SIDE**', {tts: true});
-    NOTIFY_CHANNEL.sendMessage('@everyone **BEING RAIDED FROM WEST SIDE**', {tts: true});
-    NOTIFY_CHANNEL.sendMessage('@everyone **BEING RAIDED FROM WEST SIDE**', {tts: true});
-    NOTIFY_CHANNEL.sendMessage('@everyone **BEING RAIDED FROM WEST SIDE**', {tts: true});
-    NOTIFY_CHANNEL.sendMessage('@everyone **BEING RAIDED FROM WEST SIDE**', {tts: true});
+    NOTIFY_CHANNEL.sendMessage('@everyone **BEING RAIDED FROM WEST SIDE**', {tts: false});
+    NOTIFY_CHANNEL.sendMessage('@everyone **BEING RAIDED FROM WEST SIDE**', {tts: false});
+    NOTIFY_CHANNEL.sendMessage('@everyone **BEING RAIDED FROM WEST SIDE**', {tts: false});
+    NOTIFY_CHANNEL.sendMessage('@everyone **BEING RAIDED FROM WEST SIDE**', {tts: false});
+    NOTIFY_CHANNEL.sendMessage('@everyone **BEING RAIDED FROM WEST SIDE**', {tts: false});
   }
 });
 //WALLS-------------------------------------------------------------------------
@@ -126,9 +126,9 @@ client.on ('message', message => {
     .setColor(0xFF0000)
     .setTitle('꧁⎝⧹❤Ƹ̵̡Ӝ̵̨̄ƷCLICK FOR HELP ᓭ(◕‿◕✿)ᓯ❤⧸⎠ ꧂')
     .addField('help')
-    .setURL("https://www.youtube.com/c/cannuner")
+    .setURL("www.brazzers.com")
       NOTIFY_CHANNEL.sendEmbed(embed)
   }
 })
 //LOGIN TOKEN-------------------------------------------------------------------
-client.login('MzM4OTQxMDYxMjk0NDU2ODMz.DFcu-w.0SGZKFCYEvH-_PMugP7vXih7KNM');
+client.login('407453634704703508');
